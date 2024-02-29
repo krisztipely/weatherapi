@@ -1,0 +1,65 @@
+{
+    "info": {
+        "_postman_id": "{{POSTMAN_ID}}",
+        "name": "Weather API Tests",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get Weather - New York",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.example.com/weather?api_key={{WEATHER_API_KEY}}&city=New%20York",
+                    "protocol": "https",
+                    "host": [
+                        "api.example.com"
+                    ],
+                    "path": [
+                        "weather"
+                    ],
+                    "query": [
+                        {
+                            "key": "api_key",
+                            "value": "{{WEATHER_API_KEY}}"
+                        },
+                        {
+                            "key": "city",
+                            "value": "New York"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get Weather - Los Angeles",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.example.com/weather?api_key={{WEATHER_API_KEY}}&city=Los%20Angeles",
+                    "protocol": "https",
+                    "host": [
+                        "api.example.com"
+                    ],
+                    "path": [
+                        "weather"
+                    ],
+                    "query": [
+                        {
+                            "key": "api_key",
+                            "value": "{{WEATHER_API_KEY}}"
+                        },
+                        {
+                            "key": "city",
+                            "value": "Los Angeles"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
