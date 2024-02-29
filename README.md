@@ -45,3 +45,7 @@ This repository contains scripts for testing a weather API using Python and Post
 2. Set the environment to the one you created.
 
 3. Run the collection.
+
+## License
+
+[MIT](https://github.com/krisztipely/weatherapi/blob/main/LICENSE) 2024, Krisztina-Ronkainen Lakner
